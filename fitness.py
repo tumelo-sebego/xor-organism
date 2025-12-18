@@ -54,7 +54,7 @@ def load_and_test_winner(config_path):
 
 if __name__ == '__main__':
     local_dir = os.path.dirname(__file__)
-    config_path = os.path.join(local_dir, 'config-feedforward')
+    config_path = os.path.join(local_dir, 'config-feedforward.txt')
     
     # Run evolution and save
     run_neat(config_path)
